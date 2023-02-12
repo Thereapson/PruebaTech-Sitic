@@ -1,0 +1,33 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(https://inmobiliariacurtidor.com/wp-content/uploads/2020/09/BlogPage-Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.img {
+    height: 100px;
+    background: transparent;
+    position: center;
+}
+
+.boton{
+    border: 1px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: blue;
+    font-family: sans-serif;
+    border-radius: 15px;
+    position: relative;
+    size: 200px;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
